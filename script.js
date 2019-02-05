@@ -11,7 +11,7 @@ var isFullAge = now - johnAge >= fullAge;
 console.log(isFullAge);
 
 //Grouping
-var ageJohn = now - johnAge;
+var ageJohn = now - johnAge;gi
 var ageMark = 35;
 var average = (ageJohn + ageMark) / 2;x
 console.log(average);
