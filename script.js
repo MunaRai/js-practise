@@ -1,19 +1,17 @@
-/********************
- * variable mutation and type coercion
- */
-var firstName = 'John';
-var age = 28;;
-console.log(firstName +' '+ age);
+/***********************
+*Basic Operator
+*/
+//Math Operator
 
-var job, isMarried;
-job = 'teacher';
-isMarried = 'false';
-console.log(firstName +' is a ' + age + ' year old ' + job + ' Is he married ? ' + isMarried);
+var year, yearJohn, yearMark;
+year = 2018;
+ageJohn = 28;
+ageMark = 33;
+yearJohn = year - ageJohn;
+yearMark = year - ageMark;
 
-//variable mutation
-age = 'Twenty eight';
-job = 'Driver';
-alert(firstName +' is a ' + age + ' year old ' + job + ' Is he married ? ' + isMarried);
+console.log (yearJohn);
 
-var lastName = prompt("What is his lastname ? ");
-console.log(firstName + ' ' + lastName);
+console.log (year + 2);
+console.log (year * 3);
+console.log (year / 2);
