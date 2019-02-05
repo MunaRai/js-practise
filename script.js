@@ -11,6 +11,6 @@ if(age < 13){
     console.log(firstName + ' is a teenager. ');
 }else if(age > 0 && age <40){
     console.log(firstName + ' isa young age. ');
-}else{
+}else
     console.log(firstName + ' is a man. ');
 }
