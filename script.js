@@ -1,4 +1,5 @@
 
+
 /***********************
  * Boolean Logic
  */
@@ -14,3 +15,4 @@ if(age < 13){
 }else
     console.log(firstName + ' is a man. ');
 }
+
